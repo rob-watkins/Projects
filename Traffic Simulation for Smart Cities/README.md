@@ -1,9 +1,9 @@
 
-File name: 	  readme
+File name: 	    readme
 
-Author: 	    Bryan Kline
+Authors: 	      Bryan Kline, Robert Watkins, Ryan Lieu
 
-Date:			    December 6, 2017
+Date:			      December 6, 2017
 
 Description:	  Compilation and execution instructions and dependency information, created for networking
                 course at UNR (CPE400, Fall 2017) in collaboration with Ryan Lieu and Robert Watkins.
