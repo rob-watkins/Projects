@@ -1,0 +1,87 @@
+<launch> 
+ 
+	 <!-- STATIC TRANSFORM FROM DRONE BODY TO ToF SENSOR 1--> 
+	 <node pkg="tf" 
+	 	   type="static_transform_publisher" 
+	 	   name="drone_ToF_sensor_1" 
+	 	   args="0 0.55 0 1.3 0 0 /firefly/base_link /quat/tof_tf_1 100"/> 
+ 
+	 <!-- STATIC TRANSFORM FROM DRONE BODY TO ToF SENSOR 2--> 
+	 <node pkg="tf" 
+	 	   type="static_transform_publisher" 
+	 	   name="drone_ToF_sensor_2" 
+	 	   args="0 0.55 0 1.8 0 0 /firefly/base_link /quat/tof_tf_2 100"/> 
+ 
+	 <!-- STATIC TRANSFORM FROM DRONE BODY TO ToF SENSOR 3--> 
+	 <node pkg="tf" 
+	 	   type="static_transform_publisher" 
+	 	   name="drone_ToF_sensor_3" 
+	 	   args="0 0.55 0 1.5 0.8 0 /firefly/base_link /quat/tof_tf_3 100"/> 
+ 
+	 <!-- STATIC TRANSFORM FROM DRONE BODY TO ToF SENSOR 4--> 
+	 <node pkg="tf" 
+	 	   type="static_transform_publisher" 
+	 	   name="drone_ToF_sensor_4" 
+	 	   args="0 -0.55 0 5.0 0 0 /firefly/base_link /quat/tof_tf_4 100"/> 
+ 
+	 <!-- STATIC TRANSFORM FROM DRONE BODY TO ToF SENSOR 5--> 
+	 <node pkg="tf" 
+	 	   type="static_transform_publisher" 
+	 	   name="drone_ToF_sensor_5" 
+	 	   args="0 -0.55 0 4.7 0.8 0 /firefly/base_link /quat/tof_tf_5 100"/> 
+ 
+	 <!-- STATIC TRANSFORM FROM DRONE BODY TO ToF SENSOR 6--> 
+	 <node pkg="tf" 
+	 	   type="static_transform_publisher" 
+	 	   name="drone_ToF_sensor_6" 
+	 	   args="0 -0.55 0 4.5 0 0 /firefly/base_link /quat/tof_tf_6 100"/> 
+ 
+	 <!-- STATIC TRANSFORM FROM DRONE BODY TO ToF SENSOR 7--> 
+	 <node pkg="tf" 
+	 	   type="static_transform_publisher" 
+	 	   name="drone_ToF_sensor_7" 
+	 	   args="0.55 0 0 6 0 0 /firefly/base_link /quat/tof_tf_7 100"/> 
+ 
+	 <!-- STATIC TRANSFORM FROM DRONE BODY TO ToF SENSOR 8--> 
+	 <node pkg="tf" 
+	 	   type="static_transform_publisher" 
+	 	   name="drone_ToF_sensor_8" 
+	 	   args="0.55 0 0 0 0.8 0 /firefly/base_link /quat/tof_tf_8 100"/> 
+ 
+	 <!-- STATIC TRANSFORM FROM DRONE BODY TO ToF SENSOR 9--> 
+	 <node pkg="tf" 
+	 	   type="static_transform_publisher" 
+	 	   name="drone_ToF_sensor_9" 
+	 	   args="0.55 0 0 0.3 0 0 /firefly/base_link /quat/tof_tf_9 100"/> 
+ 
+	 <!-- STATIC TRANSFORM FROM DRONE BODY TO ToF SENSOR 10--> 
+	 <node pkg="tf" 
+	 	   type="static_transform_publisher" 
+	 	   name="drone_ToF_sensor_10" 
+	 	   args="0 -0.40 0 0 4.7 0 /firefly/base_link /quat/tof_tf_10 100"/> 
+ 
+	 <!-- STATIC TRANSFORM FROM DRONE BODY TO ToF SENSOR 11--> 
+	 <node pkg="tf" 
+	 	   type="static_transform_publisher" 
+	 	   name="drone_ToF_sensor_11" 
+	 	   args="-0.40 0 0 0 4.7 0 /firefly/base_link /quat/tof_tf_11 100"/> 
+ 
+	 <!-- STATIC TRANSFORM FROM DRONE BODY TO ToF SENSOR 12--> 
+	 <node pkg="tf" 
+	 	   type="static_transform_publisher" 
+	 	   name="drone_ToF_sensor_12" 
+	 	   args="-0.55 0 0 3.4 0 0 /firefly/base_link /quat/tof_tf_12 100"/> 
+ 
+	 <!-- STATIC TRANSFORM FROM DRONE BODY TO ToF SENSOR 13--> 
+	 <node pkg="tf" 
+	 	   type="static_transform_publisher" 
+	 	   name="drone_ToF_sensor_13" 
+	 	   args="-0.55 0 0 3.14 0.8 0 /firefly/base_link /quat/tof_tf_13 100"/> 
+ 
+	 <!-- STATIC TRANSFORM FROM DRONE BODY TO ToF SENSOR 14--> 
+	 <node pkg="tf" 
+	 	   type="static_transform_publisher" 
+	 	   name="drone_ToF_sensor_14" 
+	 	   args="-0.55 0 0 2.9 0 0 /firefly/base_link /quat/tof_tf_14 100"/> 
+ 
+</launch>
